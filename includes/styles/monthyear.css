@@ -1,0 +1,39 @@
+/*This changes the size of many of the Datepicker elements as they seem too large for my tastes*/
+
+#ui-datepicker-div, .ui-datepicker-calendar, .ui-datepicker-current {
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 0.8em;
+    margin: 1px 0;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    padding: 0.1em 0;
+    position: relative;
+}
+
+.ui-widget { 
+    font-size: 0.9em;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+    padding: 0;    
+}
+
+#textdiv, #pickerdiv, #altfielddiv {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+input {
+    background-color: lightsteelblue;
+}
+
+body {
+    background-color: #ccc;
+    line-height: 1.2em;
+}
+

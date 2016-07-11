@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Month-Year Picker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="common/scripts/jquery-2.2.4.min.js"></script>
+    <script src="common/scripts/jquery-ui.min.js"></script>
+    <script src="includes/scripts/monthyear.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="common/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="common/styles/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="common/styles/themes/smoothness/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="includes/styles/monthyear.css">
+  </head>
+  <body>
+    <div id="textdiv"><p>
+        <span id="textspan">        
+          <a href="http://jqueryui.com/datepicker/">Datepicker</a> 
+          is an extremely useful jQuery plugin that displays a pop-up calender for choosing dates. 
+          <br/>
+          But sometimes you want the user to simply choose a month and year instead of a specific day.
+          <br/>
+          The documentation for Datepicker is not particularly useful in describing this technique,
+          so here is what works for me. Suggestions for improvement are welcome.
+        </span>
+    </div>
+    <div id="pickerdiv">
+      <span>
+        Choose a date:
+        <input type="text" readonly id="monthyear"/>
+      </span>
+    </div>
+
+    <div id="altfielddiv">
+      <br/>
+      <span id="altfieldtextspan">
+        This field is usually hidden. Use this to get the date in a format that can be passed to a 
+        function or as a parameter to a DAO
+        <br/>
+        Alternate field:
+        <input type="text" readonly id="monthyearalt"/>  
+      </span>
+    </div>
+
+
+  </body>
+</html>
